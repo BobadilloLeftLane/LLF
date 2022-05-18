@@ -14,16 +14,17 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 30,
+    growEditionSizeTo: 300,
     layersOrder: [
       { name: "Dupe" },
       { name: "Golava" },
+      { name: "Tatavaza" },
+      { name: "Kosijaner" },
       { name: "Oci mrale" },
       { name: "djozluk - nos" },
-      { name: "Kosijaner" },
-      { name: "Usta mralo" },
       { name: "Odeca" },
       { name: "Usi babine" },
+      { name: "Usta mralo" },
     ],
   },
 ];
@@ -33,8 +34,8 @@ const shuffleLayerConfigurations = true;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 1000,
+  height: 800,
   smoothing: false,
 };
 
@@ -60,10 +61,10 @@ const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Polygon = MAT
 const TOKENS_PER_MINT = 9; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-05-12T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-06-08T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-05-10T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-06-07T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xd8B808A887326F45B2D0cd999709Aa6264CeF919"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
