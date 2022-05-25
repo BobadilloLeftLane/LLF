@@ -8,11 +8,11 @@
   --font-primary: "Poppins", sans-serif;
   --font-secondary: "Arvo", serif;
   --font-code: "Roboto", monospace;
-  --bg-color: gray;
+  --bg-color: rgb(0, 78, 48);
   --bg-color-transparent: #00163f80;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
-  --accent-color: #2904fa;
+  --accent-color: #fa2904;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -24,7 +24,7 @@
 }
 
 body {
-  background-image: url('https://images.unsplash.com/photo-1554346508-8a555bbf5481?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2076&q=80');
+  background-image: url(firstback.jpg),url(secondback.jpg),url(third.jpg),url(fourthback.jpg),url(fifthback.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
