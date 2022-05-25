@@ -22,23 +22,16 @@
   margin: 0;
   box-sizing: border-box;
 }
-.backgroundstuff{
 
+
+
+body {
+  background-image: url('../images/background/firstback.jpg'),url('../images/background/secondback.jpg'),url('../images/background/thirdback.jpg'),url('../images/background/fourthback.jpg'),url('../images/background/fifthback.jpg'); 
   background-size: cover;
   display: grid;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;  display: flex;
-
-
-}
-.m {
-margin-bottom: 0px;
-
-}
-body {
-  /* background-image: url('../images/background/firstback.jpg'),url('../images/background/secondback.jpg'),url('../images/background/thirdback.jpg'),url('../images/background/fourthback.jpg'),url('../images/background/fifthback.jpg'); */
-
+  background-attachment: fixed; 
   flex-flow: column;
   color: var(--font-color);
   font-family: var(--font-primary);
