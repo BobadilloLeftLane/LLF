@@ -24,8 +24,7 @@
 }
 
 body {
-  background-color: var(--bg-color);
-  background-image: url('.C:\LLF\left-lane-freaks\frontend\images\background\firstback.jpg');
+  background-image: url('.\LLF\left-lane-freaks\frontend\images\background\firstback.jpg');
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
