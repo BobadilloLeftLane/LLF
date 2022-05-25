@@ -24,7 +24,7 @@
 }
 
 body {
-  background-image: url(firstback.jpg),url(secondback.jpg),url(third.jpg),url(fourthback.jpg),url(fifthback.jpg);
+  background-image: url('../images/background/firstback.jpg'),url('../images/background/secondback.jpg'),url('../images/background/thirdback.jpg'),url('../images/background/fourthback.jpg'),url('../images/background/fifthback.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
