@@ -26,13 +26,14 @@
 body {
   background-image: url('../images/background/firstback.jpg'),url('../images/background/secondback.jpg'),url('../images/background/thirdback.jpg'),url('../images/background/fourthback.jpg'),url('../images/background/fifthback.jpg');
   background-size: cover;
+  display: grid;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;  display: flex;
   flex-flow: column;
-  height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
+  margin: 0px;
 }
 
 .container {
