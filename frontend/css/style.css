@@ -8,34 +8,66 @@
   --font-primary: "Poppins", sans-serif;
   --font-secondary: "Arvo", serif;
   --font-code: "Roboto", monospace;
-  --bg-color: transparent;
+  --bg-color: #00163f;
   --bg-color-transparent: #00163f80;
-  --font-color: #ffffff;
-  --btn-bg-color: #ffffff;
-  --accent-color: #ffffff;
+  --font-color: #2f00ff;
+  --btn-bg-color: #fa0404;
+  --accent-color: #d0f308;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
+
+
+
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+.backgrounduno{
+margin: 0px;
+background-repeat:no-repeat;
+min-height: 50%;
+align-items: center;
+justify-content: center;
+display: flex;
 
+}
+.backgrounddue{
+  margin: 0px;
+  background-position: center center;
+  background-repeat:no-repeat;
+  min-height: 25%;
+  align-items: center;
+  justify-content: center;
+  
+  }
+  .backgroundtre{
+    margin: 0px;
+    background-position: center center;
+    background-repeat:no-repeat;
+    min-height: 25%;
+    align-items: center;
+    justify-content: center;
+    
+    }
+
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+
+     
 
 
 body {
-  background-image: url('../images/background/firstback.jpg'),url('../images/background/secondback.jpg'),url('../images/background/thirdback.jpg'),url('../images/background/fourthback.jpg'),url('../images/background/fifthback.jpg'); 
-  background-size: cover;
-  display: grid;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed; 
-  flex-flow: column;
+  background-color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
   color: var(--font-color);
   font-family: var(--font-primary);
-  margin: 0px;
+  min-height: 100vh;
 }
 
 .container {
@@ -61,6 +93,17 @@ header .container {
   align-items: center;
 }
 
+/* FOOTER */
+
+
+
+footer {
+margin-top: auto; 
+justify-content: space-between;
+align-items: center;
+
+
+}
 .menu {
   display: flex;
   gap: 2rem;

@@ -29,7 +29,6 @@
 
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
     <header>
       <div class="container">
         <div class="logo">
@@ -59,25 +58,60 @@
           >
             <img src="images/header/opensea.webp" alt="Opensea" />
           </a>
+          <audio id="themeMusic" controls  autoplay="autoplay" loop="loop">  
+            <source src="../backend/music/" type="audio/mp3" />
+    </audio> 
+
           <button class="wallet-btn btn" id="connectWallet">
             <span>Connect Wallet</span>
           </button>
         </div>
+
+ 
       </div>
     </header>
-    
-<!--     
-    <section class="container not-connected">
-      <div>
-        <h2 id="welcomeH2">Connect to MetaMask wallet to get started</h2>
-        <h1 id="welcomeH1">Welcome to the LLF NFT Project!</h1>
-        <p id="welcomeP">
-          The Left Lane Freaks NFT Project is a decentralized, open-source project that . 
-        </p>
-      </div>
-    </section> -->
+    <body>
+<div class="wrapper">
+  <img src="../frontend/images/background/firstback.jpg">
+  <img src="../frontend/images/background/secondback.jpg">
+  <img src="../frontend/images/background/thirdback.jpg">
 
-    <section class="container">
+
+</div>
+
+    <!-- <section class="backgrounddue">
+
+        <div style="background-image: url('../frontend/images/background/secondback.jpg'); 
+        background-size: cover; height:480px; padding-top:80px;">
+        </div>
+
+    </section>
+
+    <section class="backgroundtre">
+
+        <div style="background-image: url('../frontend/images/background/thirdback.jpg'); 
+        background-size: cover; height:480px; padding-top:80px;">
+        </div>
+
+    </section>
+
+    <section class="backgroundquatro">
+
+        <div style="background-image: url('../frontend/images/background/fourthback.jpg'); 
+        background-size: cover; height:480px; padding-top:80px;">
+        </div>
+
+    </section>
+
+    <section class="backgroundcinque">
+
+        <div style="background-image: url('../frontend/images/background/fifthback.jpg'); 
+        background-size: cover; height:480px; padding-top:80px;">
+        </div>
+
+    </section> -->
+    
+    <!-- <section class="container">
       <div class="countdown card">
         <div id="countdown">
           <ul class="count-down" data-date="">
@@ -139,7 +173,7 @@
                 type="number"
                 value="1"
                 min="1"
-                max="5"
+                max="9"
               />
               <button class="input-number-increment btn" id="mintIncrement">+</button>
             </span>
@@ -169,7 +203,38 @@
           <button class="hero-btn btn">View Collection</button>
         </a>
       </div>
-    </section>
+    </section> -->
+    <footer>
+      <div class="container">
+    
+        <div class="footer">
+          <a
+            href="https://discord.gg/QP3tGq6u"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="images/header/discord.webp" alt="Discord" />
+          </a>
+          <a
+            href="https://twitter.com/leftlanefreaks"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="images/header/twitter.webp" alt="Twitter" />
+          </a>
+          <a
+            href="https://opensea.io/LeftLaneFreaks"
+            target="_blank"
+            rel="noopener noreferrer">
+
+            <img src="images/header/opensea.webp" alt="Opensea" />
+          </a>
+       
+        </div>
+
+
+      </div>
+    </footer>
 
     <div id="spinner" class="dot-spin"></div>
 
