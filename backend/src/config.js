@@ -14,17 +14,17 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 20,
+    growEditionSizeTo: 10000,
     layersOrder: [
       { name: "back" },
       { name: "head" },
       { name: "tats" },
-      { name: "ear" },
+      { name: "hair" },
+
       { name: "eye" },
       { name: "nose" },
       { name: "cloth" },
-
-     { name: "hair" },
+      { name: "ear" },
       { name: "mouth" },
     ],
   },
@@ -55,25 +55,25 @@ const CHAIN = 'rinkeby'; // only rinkeby or polygon
 const CONTRACT_NAME = 'LEFTLANEFREAKS';
 const CONTRACT_SYMBOL = 'LLF';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0xFd3E4afDD3bD9890EBfD98a114BBbcfbAc22e661';
-const TREASURY_ADDRESS = '0xFd3E4afDD3bD9890EBfD98a114BBbcfbAc22e661';
-const MAX_SUPPLY = 30; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const OWNER_ADDRESS = '0x0B7C12862eb7deAb7e6162d590d42D3d882EFe01';
+const TREASURY_ADDRESS = '0x0B7C12862eb7deAb7e6162d590d42D3d882EFe01';
+const MAX_SUPPLY = 10000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 9; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-06-08T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-06-07T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2022-06-07T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0xd8B808A887326F45B2D0cd999709Aa6264CeF919"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0x0B7C12862eb7deAb7e6162d590d42D3d882EFe01"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = ["0x0B7C12862eb7deAb7e6162d590d42D3d882EFe01"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "0x1445E8bdFDbec1fe78Cf186bD5361e645a4F6abD"; // If you want to manually include it
+// let CONTRACT_ADDRESS = "0x1445E8bdFDbec1fe78Cf186bD5361e645a4F6abD"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
@@ -98,7 +98,7 @@ try {
 const solanaMetadata = {
   symbol: "YC",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.youtube.com/c/hashlipsnft",
+  external_url: "",
   creators: [
     {
       address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",

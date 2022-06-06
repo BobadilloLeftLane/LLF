@@ -25,222 +25,210 @@
       href="images/x-icon/favicon-16x16.png"
     />
     <link rel="manifest" href="images/x-icon/site.webmanifest" />
-
-
+    <link rel="stylesheet" href="css/three-dots.min.css" />
+    <link rel="stylesheet" href="css/splide.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
+  <body>
     <header>
       <div class="container">
-        <!-- <div class="logo">
-          <a href="/">
-            <img src="images/x-icon/favicon-32x32.png" alt="logo" />
-          </a>
-        </div> -->
+    
         <div class="menu">
           <a
-            href="https://discord.gg/QP3tGq6u"
-            target="_blank"
+          href="https://discord.gg/QP3tGq6u"
+          target="_blank"
             rel="noopener noreferrer"
           >
             <img src="images/header/discord.webp" alt="Discord" />
           </a>
           <a
-            href="https://twitter.com/leftlanefreaks"
-            target="_blank"
+          href="https://twitter.com/leftlanefreaks"
+          target="_blank"
             rel="noopener noreferrer"
           >
             <img src="images/header/twitter.webp" alt="Twitter" />
           </a>
           <a
-            href="https://opensea.io/LeftLaneFreaks"
-            target="_blank"
+          href="https://opensea.io/LeftLaneFreaks"
+          target="_blank"
             rel="noopener noreferrer"
           >
             <img src="images/header/opensea.webp" alt="Opensea" />
           </a>
-          <audio id="themeMusic" controls  autoplay="autoplay" loop="loop">  
-            <source src="../backend/music/" type="audio/mp3" />
-    </audio> 
-
           <button class="wallet-btn btn" id="connectWallet">
             <span>Connect Wallet</span>
           </button>
         </div>
-
- 
       </div>
     </header>
-    <body>
-<div class="wrapper">
-  <img src="../frontend/images/background/firstback.jpg">
-  <img src="../frontend/images/background/secondback.jpg">
-  <img src="../frontend/images/background/thirdback.jpg">
-  <img src="../frontend/images/background/fourthback.jpg">
-  <img src="../frontend/images/background/fifthback.jpg">
-  <img src="../frontend/images/background/sixback.jpg">
 
-
-</div>
-
-    <!-- <section class="backgrounddue">
-
-        <div style="background-image: url('../frontend/images/background/secondback.jpg'); 
-        background-size: cover; height:480px; padding-top:80px;">
-        </div>
-
-    </section>
-
-    <section class="backgroundtre">
-
-        <div style="background-image: url('../frontend/images/background/thirdback.jpg'); 
-        background-size: cover; height:480px; padding-top:80px;">
-        </div>
-
-    </section>
-
-    <section class="backgroundquatro">
-
-        <div style="background-image: url('../frontend/images/background/fourthback.jpg'); 
-        background-size: cover; height:480px; padding-top:80px;">
-        </div>
-
-    </section>
-
-    <section class="backgroundcinque">
-
-        <div style="background-image: url('../frontend/images/background/fifthback.jpg'); 
-        background-size: cover; height:480px; padding-top:80px;">
-        </div>
-
-    </section> -->
     
-    <!-- <section class="container">
-      <div class="countdown card">
-        <div id="countdown">
-          <ul class="count-down" data-date="">
-            <li class="clock-item">
-              <span class="count-number days">20</span>
-              <p class="count-text">Days</p>
-            </li>
 
-            <li class="clock-item">
-              <span class="count-number hours">20</span>
-              <p class="count-text">Hour</p>
-            </li>
+    <div class="wrapper">
+      <!-- heading text -->
+      <ul class="image-gallery">
+        <li>
+          <img src="../frontend/images/background/firstback.jpg">
+        </li>
 
-            <li class="clock-item">
-              <span class="count-number minutes">20</span>
-              <p class="count-text">Min</p>
-            </li>
-
-            <li class="clock-item">
-              <span class="count-number seconds">20</span>
-              <p class="count-text">Sec</p>
-            </li>
-          </ul>
-          <h2 id="subHeading">Pre-Sale Countdown</h2>
-        </div>
-        <h1 id="mainHeading">NFT Drop Coming Soon!!</h1>
-        <p id="mainText">
-          Freaks dropping very soon!
-        </p>
-        <a
-          id="actionButton"
-          href="https://discord.gg/QP3tGq6u"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="hero-btn btn"
-          ><span>Community</span>
-        </a>
-        <div id="mintContainer" class="mint-container hidden">
-          <div class="info-container">
-            <div>
-              <h3>Supply</h3>
-              <p id="totalSupply">10000</p>
-            </div>
-            <div>
-              <h3>Price Per Mint</h3>
-              <p id="pricePerMint">0.05 ETH</p>
-            </div>
-            <div>
-              <h3>Max</h3>
-              <p id="maxPerMint">9 per wallet</p>
-            </div>
+        <section class="container not-connected">
+          <div>
+            <h2 id="welcomeH2">Connect to your wallet to propell yourself to the left lane!</h2>
+            <h1 id="welcomeH1">Welcome to the LLF!</h1>
+            <p id="welcomeP">
+              The Left Lane Freaks is a project created by 2 brothers,humble and persistent to help one in need, follow our Discord page for info about the project and Roadmap.
+            </p>
           </div>
-          <div class="mint-qty">
-            <span>
-              <button class="input-number-decrement btn" id="mintDecrement">–</button>
-              <input
-                id="mintInput"
-                class="input-number btn"
-                type="number"
-                value="1"
-                min="1"
-                max="9"
-              />
-              <button class="input-number-increment btn" id="mintIncrement">+</button>
-            </span>
-            <button id="setQtyMax" class="btn">SET MAX</button>
-          </div>
-          <div class="total-price-container">
-            <h3>Total</h3>
-            <p id="totalPrice">.001 ETH</p>
-          </div>
-          <button id="mintButton" class="hero-btn btn mint-btn">Mint</button>
-        </div>
-      </div>
-      <div class="minted-container card show-card hidden">
-        <h1>🎉</h1>
-        <h2>Minted!</h2>
-        <p>Here's your trasaction link:</p>
-        <a id="mintedTxnBtn" href="" target="_blank" rel="noopener noreferrer">
-          <button class="hero-btn btn">View Transaction</button>
-        </a>
-        <p>View it in the collection:</p>
-        <a
-          id="mintedLinkBtn"
-          href="https://testnets.opensea.io/collection/teststackr-collection"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button class="hero-btn btn">View Collection</button>
-        </a>
-      </div>
-    </section> -->
-    <footer>
-      <div class="container">
+        </section>
     
-        <div class="footer">
-          <a
-            href="https://discord.gg/QP3tGq6u"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/header/discord.webp" alt="Discord" />
-          </a>
-          <a
-            href="https://twitter.com/leftlanefreaks"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/header/twitter.webp" alt="Twitter" />
-          </a>
-          <a
-            href="https://opensea.io/LeftLaneFreaks"
-            target="_blank"
-            rel="noopener noreferrer">
+        <section class="container">
+          <div class="countdown card">
+            <div id="countdown">
+              <ul class="count-down" data-date="">
+                <li class="clock-item">
+                  <span class="count-number days">20</span>
+                  <p class="count-text">Days</p>
+                </li>
+    
+                <li class="clock-item">
+                  <span class="count-number hours">20</span>
+                  <p class="count-text">Hour</p>
+                </li>
+    
+                <li class="clock-item">
+                  <span class="count-number minutes">20</span>
+                  <p class="count-text">Min</p>
+                </li>
+    
+                <li class="clock-item">
+                  <span class="count-number seconds">20</span>
+                  <p class="count-text">Sec</p>
+                </li>
+              </ul>
+              <h2 id="subHeading">Pre-Sale Countdown</h2>
+            </div>
+            <h1 id="mainHeading">Left Laners Coming Soon!!</h1>
+            <p id="mainText">
+              Left Laners comming in hot!
+            </p>
+            <a
+              id="actionButton"
+              href="https://discord.gg/A9CnsVzzkZ"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hero-btn btn"
+              ><span>Join the Left Lane</span>
+            </a>
+            <div id="mintContainer" class="mint-container hidden">
+              <div class="info-container">
+                <div>
+                  <h3>Left Laners</h3>
+                  <p id="totalSupply">10000</p>
+                </div>
+                <div>
+                  <h3>Price Per Mint Bro</h3>
+                  <p id="pricePerMint">1 ETH</p>
+                </div>
+                <div>
+                  <h3>Max Per Wallet</h3>
+                  <p id="maxPerMint">9 per wallet</p>
+                </div>
+              </div>
+              <div class="mint-qty">
+                <span>
+                  <button class="input-number-decrement btn" id="mintDecrement">–</button>
+                  <input
+                    id="mintInput"
+                    class="input-number btn"
+                    type="number"
+                    value="1"
+                    min="1"
+                    max="9"
+                  />
+                  <button class="input-number-increment btn" id="mintIncrement">+</button>
+                </span>
+                <button id="setQtyMax" class="btn">SET MAX</button>
+              </div>
+              <div class="total-price-container">
+                <h3>Total</h3>
+                <p id="totalPrice">.001 ETH</p>
+              </div>
+              <button id="mintButton" class="hero-btn btn mint-btn">Mint</button>
+            </div>
+          </div>
+          <div class="minted-container card show-card hidden">
+            <h1>🎉</h1>
+            <h2>You got it!</h2>
+            <p>Here's your trasaction link:</p>
+            <a id="mintedTxnBtn" href="" target="_blank" rel="noopener noreferrer">
+              <button class="hero-btn btn">View Transaction</button>
+            </a>
+            <p>View it in the collection:</p>
+            <a
+              id="mintedLinkBtn"
+              href="https://testnets.opensea.io/collection/teststackr-collection"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button class="hero-btn btn">View Collection</button>
+            </a>
+          </div>
+        </section>
 
-            <img src="images/header/opensea.webp" alt="Opensea" />
-          </a>
-       
-        </div>
+        <li>
+          <img src="../frontend/images/background/secondback.jpg">
+        </li>
 
+        <li>
+          <img src="../frontend/images/background/thirdback.jpg">
+        </li>
 
-      </div>
-    </footer>
+        <li>
+          <img src="../frontend/images/background/fourthback.jpg"> 
+        </li>
+
+        <li>
+          <img src="../frontend/images/background/fifthback.jpg">
+        </li>
+
+        <li>
+          <img src="../frontend/images/background/sixback.jpg">
+        </li>
+        <!-- other items here -->
+      </ul>
+    </div> 
 
     <div id="spinner" class="dot-spin"></div>
 
+    <footer>    
+      <div class="footer">
+        <p>
+          We have our job to carry out, but also we have our other goals, therefore we guarentee that this project will be stable for a year.
+        </p>
+        <a
+          href="https://discord.gg/QP3tGq6u"
+          target="_blank"
+          rel="noopener noreferrer">
+
+          <img src="images/header/discord.webp" alt="Discord" />
+        </a>
+        <a
+          href="https://twitter.com/leftlanefreaks"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="images/header/twitter.webp" alt="Twitter" />
+        </a>
+        <a
+          href="https://opensea.io/LeftLaneFreaks"
+          target="_blank"
+          rel="noopener noreferrer">
+
+          <img src="images/header/opensea.webp" alt="Opensea" />
+        </a>
+     
+      </div>
+  </footer>
 
     <script src="js/metamask-onboarding.bundle.js"></script>
     <script src="js/web3.min.js"></script>
