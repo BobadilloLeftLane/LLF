@@ -55,9 +55,9 @@ const CHAIN = 'rinkeby'; // only rinkeby or polygon
 const CONTRACT_NAME = 'LEFTLANEFREAKS';
 const CONTRACT_SYMBOL = 'LLF';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0x0B7C12862eb7deAb7e6162d590d42D3d882EFe01';
-const TREASURY_ADDRESS = '0x0B7C12862eb7deAb7e6162d590d42D3d882EFe01';
-const MAX_SUPPLY = 10000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const OWNER_ADDRESS = '0x2747ABacA0e6BF1035D7D8a31A0C9b0eD35c8963';
+const TREASURY_ADDRESS = '0x2747ABacA0e6BF1035D7D8a31A0C9b0eD35c8963';
+const MAX_SUPPLY = 30; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 9; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
@@ -67,10 +67,10 @@ const PUBLIC_MINT_START_DATE = "2022-06-07T11:30:48+00:00"; // This is required.
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2022-06-07T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0x0B7C12862eb7deAb7e6162d590d42D3d882EFe01"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0x2747ABacA0e6BF1035D7D8a31A0C9b0eD35c8963"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = ["0x0B7C12862eb7deAb7e6162d590d42D3d882EFe01"]; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = ["0x2747ABacA0e6BF1035D7D8a31A0C9b0eD35c8963"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
 // let CONTRACT_ADDRESS = "0x1445E8bdFDbec1fe78Cf186bD5361e645a4F6abD"; // If you want to manually include it
