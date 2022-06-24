@@ -82,9 +82,14 @@ header {
 }
 
 header .container {
-  flex-direction: row;
+  /* flex-direction: row;
   justify-content: space-between;
+  align-items: center; */
+
+  text-align: center;
+  display: flex; 
   align-items: center;
+  justify-content: center;
 }
 
 p .container{
