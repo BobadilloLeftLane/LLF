@@ -25,6 +25,13 @@
   margin: 0;
   box-sizing: border-box;
 }
+.pageColor{
+  background-color: var(--bg-color);
+  display: flex;
+  color: var(--font-color);
+  font-family: var(--font-primary);
+
+}
 
 .image-gallery {
   display: flex;
@@ -45,6 +52,14 @@
 }
 
   .wrapper{
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+
+  .welcome{
     display: flex;
     flex-direction: column;
     background-repeat: no-repeat;
@@ -105,6 +120,27 @@ footer {
 display: flex; 
 align-items: center;
 justify-content: center;
+
+
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: #FFF;
+  background-color: rgb(0, 0, 0);
+  padding: 0px;
+  margin: 0px;
+  height: auto;
+  width: 100%;
+ 
+}
+
+
+
+
+.credits{
+align-items: center;
+display: flex;
+position: center;
 
 }
 .menu {
