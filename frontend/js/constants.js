@@ -3,7 +3,7 @@ const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the LLF NFT Project!!";
 const welcome_h2 = "Connect to MetaMask wallet to get started";
-const welcome_p = "The Left Lane Freaks is a project created by 2 brothers,humble and persistent,born to hang in the left lane going pretty quick not giving a single fuck,only to help one in need,our small team is persistent in creating strong community and strong fucking people. Follow our Social pages for info about the project,whitelist and roadmap.";
+const welcome_p = "  The coolest and fastest NFT collection on the Polygon chain.Join us, and you will,among many benefits,have a chance to win 20k USD Grand Prize! If you are fast enough of course...";
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Open!!";
 const h1_public_mint = "Left Laners running wild!!";
