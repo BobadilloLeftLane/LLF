@@ -7,7 +7,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "LLF";
+const namePrefix = "Left Lane Freaks";
 const description = "Pedal to the metal son!";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
@@ -39,16 +39,16 @@ const format = {
   smoothing: false,
 };
 
-const extraMetadata = {
-   // Replace with your website or remove this line if you do not have one.
-};
 
+const extraMetadata = {
+  external_url: "https://leftlanefreaks.com", // Replace with your website or remove this line if you do not have one.
+};
 // NFTPort Info
 
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
-const LIMIT = 2; // Your API key rate limit
-const CHAIN = 'rinkeby'; // only rinkeby or polygon
+const LIMIT = 9; // Your API key rate limit
+const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'LeftLaneFreaks';
@@ -57,8 +57,8 @@ const METADATA_UPDATABLE = true; // set to false if you don't want to allow meta
 const OWNER_ADDRESS = '0x0B7C12862eb7deAb7e6162d590d42D3d882EFe01';
 const TREASURY_ADDRESS = '0x0B7C12862eb7deAb7e6162d590d42D3d882EFe01';
 const MAX_SUPPLY = 9999; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.14; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!F
-const TOKENS_PER_MINT = 9; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
+const MINT_PRICE = 75; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!F
+const TOKENS_PER_MINT = 7; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PUBLIC_MINT_START_DATE = "2022-07-18T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00re
@@ -69,17 +69,20 @@ const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the ro
 const ROYALTY_ADDRESS = "0x0B7C12862eb7deAb7e6162d590d42D3d882EFe01"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = ["0x0B7C12862eb7deAb7e6162d590d42D3d882EFe01"]; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
- let CONTRACT_ADDRESS = "0x1445E8bdFDbec1fe78Cf186bD5361e645a4F6abD"; // If you want to manually include it
+ let CONTRACT_ADDRESS = "0x2d764Ad08D565c972F7Bd936211Fd3CEf6f8f053"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "jedi boranije mrale"; // Replace with what you want the generic descriptions to say.
-const GENERIC_IMAGE = "https://ipfs.io/ipfs/QmUf9tDbkqnfHkQaMdFWSGAeXwVXWA61pFED7ypx4hcsfh"; // Replace with your generic image that will display for all NFTs pre-reveal.
+const GENERIC_DESCRIPTION = "What Freak choose you?"; // Replace with what you want the generic descriptions to say.
+const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafkreiaggcf7zzktxh3mkx75ur54keol5tj3tywquvzhongxjlnuapkqfm"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
+const REVEAL_PROMPT = true;
+
+const INTERVAL = 900000;
 // Automatically set contract address if deployed using the deployContract.js script
 try {
   const rawContractData = fs.readFileSync(
