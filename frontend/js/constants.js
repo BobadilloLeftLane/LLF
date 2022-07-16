@@ -1,5 +1,5 @@
-const contractAddress = "0x1445E8bdFDbec1fe78Cf186bD5361e645a4F6abD"; //Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby or polygon
+const contractAddress = "0x2d764Ad08D565c972F7Bd936211Fd3CEf6f8f053"; //Replace with your own contract address
+const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the LLF NFT Project!!";
 const welcome_h2 = "Connect to MetaMask wallet to get started";

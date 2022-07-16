@@ -53,10 +53,10 @@
                 <p>-This collection has 9,999 LLF NFTs.</p>
   
                 <h2>3. Mint price?</h2>
-                <p>-The mint price is 0.14ETH as of now.</p>
+                <p>-The mint price is 75 MATIC as of now.</p>
   
                 <h2>4. How much can I mint?</h2>
-                <p>-You can mint up to 9 LLF NFTs.</p>
+                <p>-You can mint up to 7 LLF NFTs.</p>
   
                 <h2>5. Whitelist and public sale date?</h2>
                 <p>-Whitelist Sale : 2022-07-17 <br> -Public Sale: 2022-07-18 .</p>
@@ -86,12 +86,15 @@
           >
             <img src="images/header/opensea.webp" alt="Opensea" />
           </a>
-              <!-- <button class="wallet-btn btn" id="connectWallet">
+               <button class="wallet-btn btn" id="connectWallet">
             <span>Connect Wallet</span>
-          </button>     -->
+          </button>     
         </div>
       </div>
     </header>
+
+   
+
 
 
 
@@ -102,8 +105,113 @@
           <li>
            <img src="images/background/firstback.avif" alt="image" loading = "lazy">
          </li>
+
+         <section class="container not-connected">
+          <div>
+            <h2 id="welcomeH2">Connect to MetaMask to Get Started</h2>
+            <h1 id="welcomeH1">Welcome to the LLF NFT Project!</h1>
+            <p id="welcomeP">
+              We are proud to present you Left Lane Freaks which is the coolest and the fastest NFT collection on the Polygon chain,this collection is made out of <b>9,999</b> Hand-drawn NFTs with over 350 unique assets.
+               Join us, and you will,among many benefits,have a chance to win 20k USD Grand Prize! <br> If you are fast enough of course..
+                      </p>
+          </div>
+        </section>
+    
+        <section class="container">
+          <div class="countdown card">
+            <div id="countdown">
+              <ul class="count-down" data-date="">
+                <li class="clock-item">
+                  <span class="count-number days">20</span>
+                  <p class="count-text">Days</p>
+                </li>
+    
+                <li class="clock-item">
+                  <span class="count-number hours">20</span>
+                  <p class="count-text">Hour</p>
+                </li>
+    
+                <li class="clock-item">
+                  <span class="count-number minutes">20</span>
+                  <p class="count-text">Min</p>
+                </li>
+    
+                <li class="clock-item">
+                  <span class="count-number seconds">20</span>
+                  <p class="count-text">Sec</p>
+                </li>
+              </ul>
+              <h2 id="subHeading">Pre-Sale Countdown</h2>
+            </div>
+            <h1 id="mainHeading">NFT Drop Coming Soon!!</h1>
+            <p id="mainText">
+              Left Laners coming soon!
+            </p>
+            <a
+              id="actionButton"
+              href="https://discord.gg/H6SXvAnk3C"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hero-btn btn"
+              ><span>Join the Left Lane!</span>
+            </a>
+            <div id="mintContainer" class="mint-container hidden">
+              <div class="info-container">
+                <div>
+                  <h3>Supply</h3>
+                  <p id="totalSupply">9999</p>
+                </div>
+                <div>
+                  <h3>Price Per Mint</h3>
+                  <p id="pricePerMint">75 MATIC</p>
+                </div>
+                <div>
+                  <h3>Max</h3>
+                  <p id="maxPerMint">7 per wallet</p>
+                </div>
+              </div>
+              <div class="mint-qty">
+                <span>
+                  <button class="input-number-decrement btn" id="mintDecrement">–</button>
+                  <input
+                    id="mintInput"
+                    class="input-number btn"
+                    type="number"
+                    value="1"
+                    min="1"
+                    max="5"
+                  />
+                  <button class="input-number-increment btn" id="mintIncrement">+</button>
+                </span>
+                <button id="setQtyMax" class="btn">SET MAX</button>
+              </div>
+              <div class="total-price-container">
+                <h3>Total</h3>
+                <p id="totalPrice">75 MATIC</p>
+              </div>
+              <button id="mintButton" class="hero-btn btn mint-btn">Mint</button>
+            </div>
+          </div>
+          <div class="minted-container card show-card hidden">
+            <h1>🎉</h1>
+            <h2>Minted!</h2>
+            <p>Here's your trasaction link:</p>
+            <a id="mintedTxnBtn" href="" target="_blank" rel="noopener noreferrer">
+              <button class="hero-btn btn">View Transaction</button>
+            </a>
+            <p>View it in the collection:</p>
+            <a
+              id="mintedLinkBtn"
+              href="https://opensea.io/collection/left-lane-freaks"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button class="hero-btn btn">View Collection</button>
+            </a>
+          </div>
+        </section>
          
-         <div id="myH1">
+         <!-- <div id="myH1">
           <h2 class="font_2" style="font-size: 40px; line-height: 1em; text-align: center;">
           <span style="color: #eeeadd;">
           <span style="font-size: 40px;">
@@ -132,102 +240,8 @@
           </span>
           </span>
           </p>
-             </div>
-
-<!--     
-         <section class="container">
-          <div class="countdown card">
-             <div id="countdown">
-              <ul class="count-down" data-date="">
-                <li class="clock-item">
-                  <span class="count-number days">20</span>
-                  <p class="count-text">Days</p>
-                </li>
-    
-                <li class="clock-item">
-                  <span class="count-number hours">20</span>
-                  <p class="count-text">Hour</p>
-                </li>
-    
-                <li class="clock-item">
-                  <span class="count-number minutes">20</span>
-                  <p class="count-text">Min</p>
-                </li>
-    
-                <li class="clock-item">
-                  <span class="count-number seconds">20</span>
-                  <p class="count-text">Sec</p>
-                </li>
-              </ul>
-              <h2 id="subHeading">Pre-Sale Countdown</h2>
-            </div> 
-             <h1 id="mainHeading">Left Laners Coming Soon!!</h1>
-            <p id="mainText">
-              Left Laners comming in hot!
-            </p>
-            <a
-              id="actionButton"
-              href="https://discord.gg/H6SXvAnk3C"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="hero-btn btn"
-              ><span>Join the Left Lane</span>
-            </a>
-            <div id="mintContainer" class="mint-container hidden">
-              <div class="info-container">
-                <div>
-                  <h3>Left Laners</h3>
-                  <p id="totalSupply">9999</p>
-                </div>
-                <div>
-                  <h3>Price Per Mint Bro</h3>
-                  <p id="pricePerMint">0.14 ETH</p>
-                </div>
-                <div>
-                  <h3>Max Per Wallet</h3>
-                  <p id="maxPerMint">9 per wallet</p>
-                </div>
-              </div>
-              <div class="mint-qty">
-                <span>
-                  <button class="input-number-decrement btn" id="mintDecrement">–</button>
-                  <input
-                    id="mintInput"
-                    class="input-number btn"
-                    type="number"
-                    value="1"
-                    min="1"
-                    max="9"
-                  />
-                  <button class="input-number-increment btn" id="mintIncrement">+</button>
-                </span>
-                <button id="setQtyMax" class="btn">SET MAX</button>
-              </div>
-              <div class="total-price-container">
-                <h3>Total</h3>
-                <p id="totalPrice">.001 ETH</p>
-              </div>
-              <button id="mintButton" class="hero-btn btn mint-btn">Mint</button>
-            </div>
-          </div>
-          <div class="minted-container card show-card hidden">
-            <h1>🎉</h1>
-            <h2>You got it!</h2>
-            <p>Here's your trasaction link:</p>
-            <a id="mintedTxnBtn" href="" target="_blank" rel="noopener noreferrer">
-              <button class="hero-btn btn">View Transaction</button>
-            </a>
-            <p>View it in the collection:</p>
-            <a
-              id="mintedLinkBtn"
-              href="https://testnets.opensea.io/collection/teststackr-collection"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button class="hero-btn btn">View Collection</button>
-            </a>
-          </div>
-        </section>  -->
+             </div> -->  
+            
 
           <li>
           <img src="images/background/secondback.avif" alt="image" loading = "lazy">

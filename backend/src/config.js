@@ -7,7 +7,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Left Lane Freaks";
+const namePrefix = "LeftLaneFreaks";
 const description = "Pedal to the metal son!";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
@@ -52,7 +52,7 @@ const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'LeftLaneFreaks';
-const CONTRACT_SYMBOL = 'LLF';
+const CONTRACT_SYMBOL = 'L';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x0B7C12862eb7deAb7e6162d590d42D3d882EFe01';
 const TREASURY_ADDRESS = '0x0B7C12862eb7deAb7e6162d590d42D3d882EFe01';
@@ -69,10 +69,10 @@ const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the ro
 const ROYALTY_ADDRESS = "0x0B7C12862eb7deAb7e6162d590d42D3d882EFe01"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = ["0x0B7C12862eb7deAb7e6162d590d42D3d882EFe01"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
- let CONTRACT_ADDRESS = "0x2d764Ad08D565c972F7Bd936211Fd3CEf6f8f053"; // If you want to manually include it
+ let CONTRACT_ADDRESS = "0xB2A74356308D003244c21DE655CD0AA86d9Cd691"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
