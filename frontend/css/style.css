@@ -53,7 +53,7 @@
   vertical-align: middle;
 }
 
-  .wrapper{
+  .wrapper .container{
     display: flex;
     flex-direction: column;
     background-repeat: no-repeat;
