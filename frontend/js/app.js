@@ -57,7 +57,7 @@ const updateConnectStatus = async () => {
     window.contract = new web3.eth.Contract(abi, contractAddress);
     loadInfo();
   } else {
-    onboardButton.innerText = "Connect Metamask to Mint!";
+    onboardButton.innerText = "Connect to Metamask!";
  
     notConnected.classList.remove('hidden');
     notConnected.classList.add('show-not-connected');
