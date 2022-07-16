@@ -2,7 +2,7 @@ const contractAddress = "0x2d764Ad08D565c972F7Bd936211Fd3CEf6f8f053"; //Replace 
 const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the LLF NFT Project!!";
-const welcome_h2 = "Connect to MetaMask";
+const welcome_h2 = "Connect to MetaMask to Get Started";
 const welcome_p = "  The coolest and fastest NFT collection on the Polygon chain.Join us, and you will,among many benefits,have a chance to win 20k USD Grand Prize! If you are fast enough of course...";
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Open!!";
