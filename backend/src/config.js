@@ -7,7 +7,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "LeftLaneFreaks";
+const namePrefix = "Left Lane Freaks";
 const description = "Pedal to the metal son!";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
@@ -51,11 +51,11 @@ const LIMIT = 9; // Your API key rate limit
 const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'LeftLaneFreaks';
-const CONTRACT_SYMBOL = 'L';
+const CONTRACT_NAME = 'Left Lane Freaks';
+const CONTRACT_SYMBOL = 'LL';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0x0B7C12862eb7deAb7e6162d590d42D3d882EFe01';
-const TREASURY_ADDRESS = '0x0B7C12862eb7deAb7e6162d590d42D3d882EFe01';
+const OWNER_ADDRESS = '0x2747ABacA0e6BF1035D7D8a31A0C9b0eD35c8963';
+const TREASURY_ADDRESS = '0x2747ABacA0e6BF1035D7D8a31A0C9b0eD35c8963';
 const MAX_SUPPLY = 9999; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 75; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!F
 const TOKENS_PER_MINT = 7; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
@@ -66,13 +66,13 @@ const PUBLIC_MINT_START_DATE = "2022-07-18T11:30:48+00:00"; // This is required.
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2022-07-17T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0x0B7C12862eb7deAb7e6162d590d42D3d882EFe01"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0x2747ABacA0e6BF1035D7D8a31A0C9b0eD35c8963"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = ["0x0B7C12862eb7deAb7e6162d590d42D3d882EFe01","0xb8a198ebba96afcbea1a24187b428da2c69a66d7","0x3bBb954Fa891994E0eD065eCc68875811a1D2012"]; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
- let CONTRACT_ADDRESS = "0xB2A74356308D003244c21DE655CD0AA86d9Cd691"; // If you want to manually include it
+ let CONTRACT_ADDRESS = "0xa8cfdD37b740EcE8a88158aBF92E3D923A8e8C5E"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
